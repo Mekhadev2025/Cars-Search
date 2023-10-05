@@ -9,7 +9,7 @@ const data = [
     type: "hybrid",
     fuel: "6.1km/1 litre",
     mode: "Automa",
-    image: "/assets/civic.webp",
+    image: "/assets/ravf.avif",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const data = [
     type: "gasoline",
     fuel: "7.0km/1 litre",
     mode: "Manual",
-    image: "/src/assets/civic.webp",
+    image: "/assets/civic.webp",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     type: "hybrid",
     fuel: "5.5km/1 litre",
     mode: "Automa",
-    image: "/src/assets/ford.avif",
+    image: "/assets/ford.avif",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const data = [
     type: "gasoline",
     fuel: "6.5km/1 litre",
     mode: "Automa",
-    image: "/src/assets/equinox.jpg",
+    image: "/assets/equinox.jpg",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const data = [
     type: "hybrid",
     fuel: "5.8km/1 litre",
     mode: "Automa",
-    image: "/src/assets/rogue.jpg",
+    image: "/assets/rogue.jpg",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const data = [
     type: "gasoline",
     fuel: "6.8km/1 litre",
     mode: "Manual",
-    image: "/src/assets/mazda.jpeg",
+    image: "/assets/mazda.jpeg",
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const data = [
     type: "hybrid",
     fuel: "5.6km/1 litre",
     mode: "Automa",
-    image: "/src/assets/subaru.jpg",
+    image: "/assets/subaru.jpg",
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ const data = [
     type: "gasoline",
     fuel: "6.4km/1 litre",
     mode: "Automa",
-    image: "/src/assets/jeep.jpg",
+    image: "/assets/jeep.jpg",
   },
   {
     id: 9,
@@ -97,7 +97,7 @@ const data = [
     type: "hybrid",
     fuel: "6.0km/1 litre",
     mode: "Automa",
-    image: "/src/assets/kia.png",
+    image: "/assets/kia.png",
   },
   {
     id: 10,
@@ -108,7 +108,7 @@ const data = [
     type: "gasoline",
     fuel: "6.7km/1 litre",
     mode: "Automa",
-    image: "/src/assets/tucson.jpg",
+    image: "/assets/tucson.jpg",
   },
   {
     id: 11,
@@ -119,7 +119,7 @@ const data = [
     type: "gasoline",
     fuel: "6.2km/1 litre",
     mode: "Manual",
-    image: "/src/assets/golf.jpg",
+    image: "/assets/golf.jpg",
   },
   {
     id: 12,
@@ -130,7 +130,7 @@ const data = [
     type: "hybrid",
     fuel: "5.7km/1 litre",
     mode: "Automa",
-    image: "/src/assets/audi.jpg",
+    image: "/assets/audi.jpg",
   },
   {
     id: 13,
@@ -141,7 +141,7 @@ const data = [
     type: "gasoline",
     fuel: "6.5km/1 litre",
     mode: "Automa",
-    image: "/src/assets/mercedes.jpg",
+    image: "/assets/mercedes.jpg",
   },
   {
     id: 14,
@@ -152,7 +152,7 @@ const data = [
     type: "hybrid",
     fuel: "5.9km/1 litre",
     mode: "Automa",
-    image: "/src/assets/bmw.jpg",
+    image: "/assets/bmw.jpg",
   },
   {
     id: 15,
@@ -163,7 +163,7 @@ const data = [
     type: "hybrid",
     fuel: "5.4km/1 litre",
     mode: "Automa",
-    image: "/src/assets/lexus.jpg",
+    image: "/assets/lexus.jpg",
   },
   {
     id: 16,
@@ -174,7 +174,7 @@ const data = [
     type: "electric",
     fuel: "0.0km/1 litre",
     mode: "Automa",
-    image: "/src/assets/tesla.jpg",
+    image: "/assets/tesla.jpg",
   },
   {
     id: 17,
@@ -185,7 +185,7 @@ const data = [
     type: "hybrid",
     fuel: "5.8km/1 litre",
     mode: "Automa",
-    image: "/src/assets/porsche.jpg",
+    image: "/assets/porsche.jpg",
   },
   {
     id: 18,
@@ -196,7 +196,7 @@ const data = [
     type: "gasoline",
     fuel: "7.2km/1 litre",
     mode: "Automa",
-    image: "/src/assets/landrover.jpg",
+    image: "/assets/landrover.jpg",
   },
   {
     id: 19,
@@ -207,7 +207,7 @@ const data = [
     type: "hybrid",
     fuel: "5.6km/1 litre",
     mode: "Automa",
-    image: "/src/assets/volvo.jpg",
+    image: "/assets/volvo.jpg",
   },
   {
     id: 20,
@@ -218,7 +218,7 @@ const data = [
     type: "hybrid",
     fuel: "5.9km/1 litre",
     mode: "Automa",
-    image: "/src/assets/mitsubishi.jpg",
+    image: "/assets/mitsubishi.jpg",
   },
 ];
 
