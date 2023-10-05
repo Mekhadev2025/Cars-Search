@@ -1,7 +1,19 @@
 .cardContainer{
-    width: 27.4375rem;
-height: 33.125rem;
+    width: 40rem;
+height: 50rem;
 border-radius: 1.875rem;
 background: #F2F6FC;
 box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.carCard{
+    width: 40rem;
+    height:30rem;
+    transform:scale(0.9);
+    border-radius:1.875rem;
+}
+.carTitle{
+    background:none;
+    font-size:2rem;
+    margin-left:1.5rem;
+    font-weight:500;
 }

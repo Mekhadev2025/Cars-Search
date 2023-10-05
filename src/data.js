@@ -1,3 +1,14 @@
+ 
+import civic from "./assets/civic.webp"
+import escape from "./assets/esacpe.jpg"
+import equinox from "./assets/equinox.jpg"
+import rogue from "./assets/rogue.jpg"
+import mazda from "./assets/mazda.jpeg"
+import subaru from "./assets/subaru.jpg"
+import jeep from "./assets/jeep.jpg"
+import kia from "./assets/kia.png"
+import tucson from "./assets/tucson.jpg"
+
 const data = [
     {
       id: 1,
@@ -8,6 +19,7 @@ const data = [
       type: "hybrid",
       fuel: "6.1km/1 litre",
       mode: "Automa",
+      image: "/src/assets/rav4.avif"
     },
     {
       id: 2,
@@ -18,6 +30,7 @@ const data = [
       type: "gasoline",
       fuel: "7.0km/1 litre",
       mode: "Manual",
+      image:"/src/assets/civic.webp"
     },
     {
       id: 3,
@@ -28,6 +41,7 @@ const data = [
       type: "hybrid",
       fuel: "5.5km/1 litre",
       mode: "Automa",
+      image:"/src/assets/ford.avif"
     },
     {
       id: 4,
@@ -38,6 +52,7 @@ const data = [
       type: "gasoline",
       fuel: "6.5km/1 litre",
       mode: "Automa",
+      image:"/src/assets/equinox.jpg"
     },
     {
       id: 5,
@@ -48,6 +63,7 @@ const data = [
       type: "hybrid",
       fuel: "5.8km/1 litre",
       mode: "Automa",
+      image:"/src/assets/rogue.jpg"
     },
     {
       id: 6,
@@ -58,6 +74,7 @@ const data = [
       type: "gasoline",
       fuel: "6.8km/1 litre",
       mode: "Manual",
+      image: "/src/assets/mazda.jpeg"
     },
     {
       id: 7,
@@ -68,6 +85,7 @@ const data = [
       type: "hybrid",
       fuel: "5.6km/1 litre",
       mode: "Automa",
+      image:"/src/assets/subaru.jpg"
     },
     {
       id: 8,
@@ -78,6 +96,7 @@ const data = [
       type: "gasoline",
       fuel: "6.4km/1 litre",
       mode: "Automa",
+      image:'/src/assets/jeep.jpg'
     },
     {
       id: 9,
@@ -88,6 +107,7 @@ const data = [
       type: "hybrid",
       fuel: "6.0km/1 litre",
       mode: "Automa",
+      image: '/src/assets/kia.png'
     },
     {
       id: 10,
@@ -98,6 +118,7 @@ const data = [
       type: "gasoline",
       fuel: "6.7km/1 litre",
       mode: "Automa",
+      image:'/src/assets/tucson.jpg' 
     },
  
   ];

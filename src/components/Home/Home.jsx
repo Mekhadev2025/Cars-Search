@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="cards-wrapper">
       {data.map((item) => (
-        <Card />
+        <Card value={item} />
       ))}
     </div>
   );
