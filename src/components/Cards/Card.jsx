@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import "../Cards/Card.css"
+ import heart from "/assets/heart.svg"
 const Card = (props) => {
  
    useEffect(()=>{
@@ -20,7 +21,9 @@ const Card = (props) => {
       </div>
       <div className='prizeContainer'>
         <div className='prizeCar'>${props.value.price}<span className='monthPrize'>/month</span></div>
-        <div className='likeBtn'></div>
+        <div className='likeBtn'style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+         <img src={heart} className='heart'></img>
+        </div>
         <button className='rentBtn'>Rent Now</button>
       </div>
     </div>

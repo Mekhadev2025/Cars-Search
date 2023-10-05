@@ -64,3 +64,10 @@ border:none;
 margin-left:1rem;
 color:white;
 }
+.heart{
+  width:2rem;
+  height:2rem;
+  fill:white;
+  background:none;
+
+}
