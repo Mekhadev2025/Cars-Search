@@ -9,7 +9,7 @@ const data = [
     type: "hybrid",
     fuel: "6.1km/1 litre",
     mode: "Automa",
-    image: "./assets/rav4.avif",
+    image: "/assets/civic.webp",
   },
   {
     id: 2,
