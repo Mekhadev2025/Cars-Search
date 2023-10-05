@@ -1,13 +1,4 @@
- 
-import civic from "./assets/civic.webp"
-import escape from "./assets/esacpe.jpg"
-import equinox from "./assets/equinox.jpg"
-import rogue from "./assets/rogue.jpg"
-import mazda from "./assets/mazda.jpeg"
-import subaru from "./assets/subaru.jpg"
-import jeep from "./assets/jeep.jpg"
-import kia from "./assets/kia.png"
-import tucson from "./assets/tucson.jpg"
+
 
 const data = [
     {
@@ -120,6 +111,116 @@ const data = [
       mode: "Automa",
       image:'/src/assets/tucson.jpg' 
     },
+    {
+      id: 11,
+      name: "Volkswagen Golf",
+      year: 2022,
+      price: "210",
+      capacity: 5,
+      type: "gasoline",
+      fuel: "6.2km/1 litre",
+      mode: "Manual",
+      image: "/src/assets/golf.jpg"
+    },
+    {
+      id: 12,
+      name: "Audi Q5",
+      year: 2023,
+      price: "255",
+      capacity: 5,
+      type: "hybrid",
+      fuel: "5.7km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/audi.jpg"
+    },
+    {
+      id: 13,
+      name: "Mercedes-Benz C-Class",
+      year: 2022,
+      price: "280",
+      capacity: 4,
+      type: "gasoline",
+      fuel: "6.5km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/mercedes.jpg"
+    },
+    {
+      id: 14,
+      name: "BMW X3",
+      year: 2023,
+      price: "270",
+      capacity: 5,
+      type: "hybrid",
+      fuel: "5.9km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/bmw.jpg"
+    },
+    {
+      id: 15,
+      name: "Lexus RX",
+      year: 2021,
+      price: "290",
+      capacity: 5,
+      type: "hybrid",
+      fuel: "5.4km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/lexus.jpg"
+    },
+    {
+      id: 16,
+      name: "Tesla Model 3",
+      year: 2022,
+      price: "400",
+      capacity: 5,
+      type: "electric",
+      fuel: "0.0km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/tesla.jpg"
+    },
+    {
+      id: 17,
+      name: "Porsche Cayenne",
+      year: 2023,
+      price: "350",
+      capacity: 5,
+      type: "hybrid",
+      fuel: "5.8km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/porsche.jpg"
+    },
+    {
+      id: 18,
+      name: "Land Rover Discovery",
+      year: 2022,
+      price: "275",
+      capacity: 7,
+      type: "gasoline",
+      fuel: "7.2km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/landrover.jpg"
+    },
+    {
+      id: 19,
+      name: "Volvo XC60",
+      year: 2021,
+      price: "265",
+      capacity: 5,
+      type: "hybrid",
+      fuel: "5.6km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/volvo.jpg"
+    },
+    {
+      id: 20,
+      name: "Mitsubishi Outlander",
+      year: 2022,
+      price: "215",
+      capacity: 7,
+      type: "hybrid",
+      fuel: "5.9km/1 litre",
+      mode: "Automa",
+      image: "/src/assets/mitsubishi.jpg"
+    }
  
   ];
 

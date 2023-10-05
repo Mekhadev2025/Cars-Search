@@ -3,11 +3,19 @@ import "../Home/Home.css";
 import Card from "../Cards/Card";
 import data from "../../data";
 
-const Home = () => {
+const Home = (props) => {
+  const searchValue = props.values;
+ 
+  const filteredData = searchValue
+    ? data.filter((item) =>
+        item.name.toLowerCase().includes(searchValue.toLowerCase())
+      )
+    : data;  
+
   return (
     <div className="cards-wrapper">
-      {data.map((item) => (
-        <Card value={item} />
+      {filteredData.map((item) => (
+        <Card key={item.id} value={item} />
       ))}
     </div>
   );
