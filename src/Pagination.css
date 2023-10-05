@@ -1,4 +1,14 @@
  .pagination{
 float:right;
 margin-right:35rem;
+ 
+ 
+ }
+ nav{
+     
+height: 7rem;
+margin:1rem;
+border-radius: 1.125rem;
+background: #F0F4FB;
+box-shadow: 0px 4px 10px 1px rgba(148, 153, 162, 0.25);
  }
