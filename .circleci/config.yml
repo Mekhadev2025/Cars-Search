@@ -23,11 +23,13 @@ jobs:
           command: "echo Mekha!"
 
 
- say-bye:
-     stops:
-       -run:
-          name:"Bye Bye"
-          command:"echo  Bye Bye"
+  say-bye:
+     steps:
+       - run:
+          name: "Byeeee"
+          command: "echo Bye Bye!"
+
+           
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
